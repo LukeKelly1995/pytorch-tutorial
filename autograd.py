@@ -1,5 +1,4 @@
-"""Autograd basics in pytorch
-"""
+"""Autograd basics in pytorch."""
 
 import torch
 

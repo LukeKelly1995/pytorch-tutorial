@@ -1,5 +1,4 @@
-"""Tensor basics in pytorch
-"""
+"""Tensor basics in pytorch."""
 
 import torch
 
