@@ -1,7 +1,7 @@
 {
     "python.pythonPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\python.exe",
     "python.linting.pylintPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\Scripts\\pylint.exe",
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
     "python.linting.pylintArgs": [
         "--generated-members=torch.*,numpy.*"
     ],
@@ -14,5 +14,6 @@
     "python.formatting.blackArgs": [
         "--line-length",
         "88"
-    ]
+    ],
+    "python.linting.flake8Enabled": true
 }
