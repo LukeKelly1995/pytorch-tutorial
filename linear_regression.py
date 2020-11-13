@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # 0) Prepare data
 X_numpy, y_numpy = datasets.make_regression(
-    n_samples=100, n_features=1, noise=20, random_state=4
+    n_samples=1000, n_features=3, noise=20, random_state=4
 )
 
 # cast to float Tensor
@@ -50,7 +50,6 @@ for epoch in range(num_epochs):
 # Plot
 predicted = model(X).detach().numpy()
 
-plt.plot(X_numpy, y_numpy, "ro")
-plt.plot(X_numpy, predicted, "b")
+plt.scatter(y_numpy, predicted, alpha=0.25, color="blue")
 plt.title("Actual versus Predicted")
 plt.show()
