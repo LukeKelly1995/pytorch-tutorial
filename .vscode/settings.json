@@ -13,7 +13,7 @@
     "python.formatting.blackPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\Scripts\\black.exe",
     "python.formatting.blackArgs": [
         "--line-length",
-        "88"
+        "79"
     ],
     "python.linting.flake8Enabled": true
 }
