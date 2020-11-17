@@ -1,4 +1,4 @@
-"""Logistic regression in pytorch"""
+"""Logistic regression in pytorch."""
 
 import torch
 import torch.nn as nn
