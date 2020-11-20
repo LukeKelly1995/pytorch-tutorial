@@ -1,16 +1,11 @@
 {
-    "python.pythonPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\python.exe",
-    "python.linting.pylintPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\Scripts\\pylint.exe",
-    "python.linting.pylintEnabled": false,
-    "python.linting.pylintArgs": [
-        "--generated-members=torch.*,numpy.*"
-    ],
+    "python.pythonPath": "/home/lukek/anaconda3/envs/pytorch/bin/python",
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "python.formatting.provider": "black",
-    "python.formatting.blackPath": "C:\\Users\\lukek\\Anaconda3\\envs\\pytorch\\Scripts\\black.exe",
+    "python.formatting.blackPath": "/home/lukek/anaconda3/envs/pytorch/bin/black",
     "python.formatting.blackArgs": [
         "--line-length",
         "79"

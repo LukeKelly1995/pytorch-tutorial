@@ -31,13 +31,14 @@ print(f"Constructed tensor size: \n{constructed_tensor.size()}\n")
 grad_tensor = torch.tensor([5.5, 3], requires_grad=True)
 print(f"Tensor with gradient: \n{grad_tensor}\n")
 
-## operations on tensors
+# operations on tensors
 y = torch.rand(2, 2)
 x = torch.rand(2, 2)
 # elementwise addition
 z = x + y
 # z = torch.add(x, y)
-# in place addition, everything with a trailing underscore is an inplace operation
+# in place addition, everything with a trailing underscore is
+# an inplace operation
 # y.add_(x)
 # subtraction
 z = x - y
@@ -49,19 +50,19 @@ z = x * y
 z = x / y
 # z = torch.div(x, y)
 
-## slicing tensors
+# slicing tensors
 x = torch.rand(5, 3)
 print(f"Tensor: \n{x}\n")
 print(f"Sliced tensor: \n{x[1, :]}\n")
 print(f"Tensor value: \n{x[1, 1].item()}\n")
 
-## reshaping tensors
+# reshaping tensors
 x = torch.randn(4, 4)
 y = x.view(16)
 z = x.view(-1, 8)
-print(f"Initial shape: {x.size()}, \nFlatten: {y.size()}, \nReshape: {z.size()}\n")
+print(f"Initial shape: {x.size()}, Flatten: {y.size()}, Reshape: {z.size()}")
 
-## pytorch tensors and numpy conversions
+# pytorch tensors and numpy conversions
 a = torch.ones(5)
 print(f"Tensor: \n{a}")
 print(f"Type: \n{type(a)}\n")
