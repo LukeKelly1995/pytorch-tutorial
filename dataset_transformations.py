@@ -8,9 +8,7 @@ import numpy as np
 
 class WineDataset(Dataset):
     def __init__(self, transform=None):
-        xy = np.loadtxt(
-            "data/wine.csv", delimiter=",", dtype=np.float32, skiprows=1
-        )
+        xy = np.loadtxt("data/wine.csv", delimiter=",", dtype=np.float32, skiprows=1)
         self.n_samples = xy.shape[0]
 
         # note that we do not convert to tensor here
